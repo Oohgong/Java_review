@@ -7,7 +7,7 @@ public class Shapes {
 		Circle ci = new Circle();
 		Square sq = new Square();
 		
-		//오버라이딩
+		//오버라이딩 : 부모 메서드의 값을 재정의
 		Shape s; //부모 메서드 s에 값 대입
 		s= sh; s.draw(); //shape
 		s = ci; s.draw(); //circle
